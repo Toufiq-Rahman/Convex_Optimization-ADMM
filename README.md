@@ -5,7 +5,7 @@
 This repository provides a MATLAB implementation of the LASSO optimization problem using the Alternating Direction Method of Multipliers (ADMM). It supports:
 
 - **Synthetic regression** (`lasso.m`) using Gaussian random data.
-- **Image denoising** (`lasso_img_main.m`) on grayscale images.
+- **Image reconstruction** (`lasso_img_main.m`) on grayscale images.
 - **Metric outputs**: PSNR, SSIM, $\ell_2$ error.
 - **Visual analysis**: convergence curves, histograms, error maps.
 
