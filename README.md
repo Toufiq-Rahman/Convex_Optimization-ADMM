@@ -6,6 +6,7 @@ This repository provides a MATLAB implementation of the LASSO optimization probl
 
 - **Synthetic regression** (`lasso.m`) using Gaussian random data.
 - **Image reconstruction** (`lasso_img_main.m`) on grayscale images.
+- **Formulation of Hybrid Precoding** (`convex_optimization_project.pdf`)
 - **Metric outputs**: PSNR, SSIM, $\ell_2$ error.
 - **Visual analysis**: convergence curves, histograms, error maps.
 
@@ -16,4 +17,4 @@ run('lasso_img_main.m')   % For image denoising
 ```
 
 ## Applications
-Sparse learning, denoising, feature selection, compressed sensing.
+Sparse learning, reconstruction, feature selection, Hybrid Precoding in MIMO.
